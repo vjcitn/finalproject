@@ -1,0 +1,29 @@
+---
+title: "Stubs for BST260 projects, 2026"
+author: "Vincent Carey"
+date: 2026-11-09
+---
+
+# Introduction
+
+The instructions indicate that your project should include description
+and analysis of two or more datasets of interest to you.
+
+You will be working in the context of an R package, based on your
+fork of vjcitn/bst260project-template from github.com
+
+Your R package will be defined to create a public web page using the
+pkgdown R package capabilities.
+
+This document is provided to give you some ideas on how you can complete
+the project tasks.
+
+# Verifying your approach
+
+Once you have forked the bst260project-template, you must
+
+- rename the repository to "finalproject"
+- make the repository public
+- set the Pages configuration to publish from /docs on main branch
+- change the DESCRIPTION file
+

@@ -16,8 +16,20 @@
   “https://github.com/vjcitn/bst260project-template” into your account
 - rename the repository to “finalproject” – it should be a public
   repository
-- use the GitHub IDE “Settings” for the repository to enable “Pages” and
-  use the main branch and `/docs` folder for page management
+- use the github.com GitHub IDE “Settings” for the repository to enable
+  “Pages” and use the main branch and `/docs` folder for page management
+- Change the DESCRIPTION file metadata to reflect the properties of your
+  package
+  - `Package: finalproject`
+  - `Authors@R:` your identifying information
+  - `URL:` and `BugReports:` fields properly set, referring to your
+    github.com username/finalproject
+  - `Depends:` and `Imports:` set properly
+- Install `pkgdown` package in your R
+- In the finalproject folder, run
+  [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html)
+- Visit `https://[username].github.io/finalproject` to verify that your
+  GitHub pages site is live.
 
 ### Proposals, accomplish by Nov 18 2026
 
@@ -63,3 +75,6 @@
 &nbsp;
 
     data(gunleg, package="bst260project")
+
+For ideas about project activities, see the “stubs” vignette in this
+package.
